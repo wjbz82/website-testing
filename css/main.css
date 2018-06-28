@@ -6,3 +6,67 @@
 body{
     background: #333; 
 }
+
+.chat{
+    width: 80%; 
+    padding: 12px, 20px; 
+    display: inline-block; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    background-color: white; 
+    line-height: 2em; 
+}
+
+.chatButton{
+    border-radius: 5px; 
+    border: 0; 
+    width: 80px; 
+    height: 2em; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background: #f4f4f4; 
+    float: right; 
+}
+
+.chat-window{
+    height: 500px; 
+    width: 500px; 
+    margin: auto; 
+    /* background-color: white;  */
+    /* we want to add the chat message here and clear the existing input field */
+}
+
+.chat-input{
+    border-radius: 5px; 
+    /* background-color: #f2f2f2;  */
+    padding: 20px; 
+}
+
+.box{
+    height: 200px; 
+    width: 200px; 
+    background-color: white; 
+    position: relative;
+
+    /*animation stuff here*/
+    /* animation: myAnimation; 
+    animation-duration: 5s; 
+    animation-iteration-count: infinite;  */
+}
+
+/* @keyframes myAnimation{
+    0%{
+        left: -300px; 
+        top: 200px; 
+    }
+
+    50%{
+        left: 500px; 
+        top: 500px; 
+    }
+
+    100%{
+        left: -300px; 
+        top: 200px; 
+    }
+} */
