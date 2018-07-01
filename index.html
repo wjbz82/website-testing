@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="css/main.css">
     <title>Website</title>
 </head>
-<body>
+<body onload="addChat()">
     <!-- Div for playing around with animations -->
     <!-- <div class="box"></div>  -->
     <div class="chat-input">
         <input type="text" class="chat" id="chat" placeholder="Send a message...">
-        <input type="submit" onclick="addChat()" class="chatButton" name="" id="">
+        <input type="submit" class="chatButton" onclick="manualChat()" name="" id="btn">
     </div>
 
-    <div class="chat-window">
+    <div class="chat-window" id="window">
         <!-- append new chat message here with appropriate styling -->
     </div>
 

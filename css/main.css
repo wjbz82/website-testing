@@ -31,8 +31,9 @@ body{
 .chat-window{
     height: 500px; 
     width: 500px; 
-    margin: auto; 
     /* background-color: white;  */
+    margin: 10px 100px;
+    border-radius: 1px solid black; 
     /* we want to add the chat message here and clear the existing input field */
 }
 
@@ -40,6 +41,15 @@ body{
     border-radius: 5px; 
     /* background-color: #f2f2f2;  */
     padding: 20px; 
+}
+
+.chat-entry{
+    line-height: 15px; 
+    font-family: sans-serif; 
+    color: red; 
+    width: 500px;
+    padding: 5px; 
+    border-bottom: 1px solid black; 
 }
 
 .box{
